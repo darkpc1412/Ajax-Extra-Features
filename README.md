@@ -2,7 +2,7 @@
   <img src="assets/AJAX.png" alt="Ajax-Extra-FeaturesLogo">
 </p>
 <h1 align="center">
-  <b>�𝖕𝖍𝖔𝖊𝖓𝖎𝖝</b>
+  <b>𝖕𝖍𝖔𝖊𝖓𝖎𝖝</b>
 </h1>
 
 <a href="https://t.me/mnxmovies124">
@@ -111,5 +111,5 @@ python3 bot.py
 * /broadcast - to broadcast a message to all Ajax users
 ```
 
-<b>✮ 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 ›› [�Justin](https://t.me/Justinvrgs)</b>                                                                                                                                                                                     
-<b>✮ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ›› [�MovieClub 𝐔𝐩𝐝𝐚𝐭𝐞𝐳](https://t.me/movieclub1241)</b>
+<b>✮ 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 ›› [Justin](https://t.me/Justinvrgs)</b>                                                                                                                                                                                     
+<b>✮ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ›› [MovieClub 𝐔𝐩𝐝𝐚𝐭𝐞𝐳](https://t.me/movieclub1241)</b>
