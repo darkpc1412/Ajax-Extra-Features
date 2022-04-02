@@ -835,7 +835,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)       
         await query.message.edit_text(
-            text="𝙾𝙿𝚄𝚂-𝚃𝙴𝙲𝙷𝚉"
+            text="�𝐌𝐎𝐕𝐈𝐄 𝐂𝐋𝐔𝐁 📺🎥"
         )
         await query.message.edit_text(                     
             text=script.HELP_TXT.format(query.from_user.mention),
@@ -851,7 +851,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="𝙾𝙿𝚄𝚂-𝚃𝙴𝙲𝙷𝚉"
+            text="�𝐌𝐎𝐕𝐈𝐄 𝐂𝐋𝐔𝐁 📺🎥"
         )
         await query.message.edit_text(
             text=script.ABOUT_TXT,
