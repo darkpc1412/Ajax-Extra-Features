@@ -12,12 +12,12 @@ cache_time = 0 if AUTH_USERS or AUTH_CHANNEL else CACHE_TIME
 
 @Client.on_inline_query(filters.user(AUTH_USERS) if AUTH_USERS else None)
 async def answer(bot, query):
-    """Show search results for given inline query"""
+    """𝕾𝖍𝖔𝖜 𝖘𝖊𝖆𝖗𝖈𝖍 𝖗𝖊𝖘𝖚𝖑𝖙𝖘 𝖋𝖔𝖗 𝖌𝖎𝖛𝖊𝖓 𝖎𝖓𝖑𝖎𝖓𝖊 𝖖𝖚𝖊𝖗𝖞"""
 
     if AUTH_CHANNEL and not await is_subscribed(bot, query):
         await query.answer(results=[],
                            cache_time=0,
-                           switch_pm_text='You have to subscribe my channel to use the bot',
+                           switch_pm_text='𝖄𝖔𝖚 𝖍𝖆𝖛𝖊 𝖙𝖔 𝖘𝖚𝖇𝖘𝖈𝖗𝖎𝖇𝖊 𝖒𝖞 𝖈𝖍𝖆𝖓𝖓𝖊𝖑 𝖙𝖔 𝖚𝖘𝖊 𝖙𝖍𝖊 𝖇𝖔𝖙',
                            switch_pm_parameter="subscribe")
         return
 
@@ -91,7 +91,7 @@ async def answer(bot, query):
 def get_reply_markup(query):
     buttons = [
         [
-            InlineKeyboardButton('Search again', switch_inline_query_current_chat=query)
+            InlineKeyboardButton('𝕾𝖊𝖆𝖗𝖈𝖍 𝖆𝖌𝖆𝖎𝖓', switch_inline_query_current_chat=query)
         ]
         ]
     return InlineKeyboardMarkup(buttons)
