@@ -747,13 +747,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/movieclub1241'),
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/movieclub1241')
+            InlineKeyboardButton('💠 𝕮𝖍𝖆𝖓𝖓𝖊𝖑 💠', url='https://t.me/movieclub1241'),
+            InlineKeyboardButton('💠 𝕲𝖗𝖔𝖚𝖕 💠', url='https://t.me/mnxmovies124')
             ],[      
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('♻️ 𝕳𝖊𝖑𝖕 ♻️', callback_data='help'),
+            InlineKeyboardButton('♻️ 𝕬𝖇𝖔𝖚𝖙 ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://t.me/mnxmovies124')
+            InlineKeyboardButton('✅ 𝕵𝖔𝖎𝖓 𝕱𝖔𝖗 𝕸𝖔𝖛𝖎𝖊𝖘  ✅', url='https://t.me/mnxmovies124')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -844,10 +844,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('♥️ 𝙳𝙴𝙿𝙻𝙾𝚈 𝚃𝚄𝚃𝙾𝚁𝙸𝙰𝙻 ♥️', url='https://t.me/mnxmovies124')
+            InlineKeyboardButton('♥️ 𝕵𝖔𝖎𝖓 𝕱𝖔𝖗 𝕸𝖔𝖛𝖎𝖊𝖘 ♥️', url='https://t.me/mnxmovies124')
             ],[
-            InlineKeyboardButton('🏠 𝙷𝙾𝙼𝙴 🏠', callback_data='start'),
-            InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴 🔐', callback_data='close_data')
+            InlineKeyboardButton('🏠 𝕳𝖔𝖒𝖊 🏠', callback_data='start'),
+            InlineKeyboardButton('🔐 𝕮𝖑𝖔𝖘𝖊 🔐', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1192,8 +1192,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "rfrsh":
         await query.answer("Fetching MongoDb DataBase")
         buttons = [[
-            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help'),
-            InlineKeyboardButton('𝚁𝙴𝙵𝚁𝙴𝚂𝙷', callback_data='rfrsh')
+            InlineKeyboardButton('𝕭𝖆𝖈𝖐', callback_data='help'),
+            InlineKeyboardButton('𝕽𝖊𝖋𝖗𝖊𝖘𝖍', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
