@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/movieclub1241')
+                InlineKeyboardButton('💠 𝕮𝖍𝖆𝖓𝖓𝖊𝖑 💠', url='https://t.me/movieclub1241')
             ],
             [
-                InlineKeyboardButton('♻️ HΞLᎮ ♻️', url=f"https://t.me/{temp.U_NAME}?start=help")
+                InlineKeyboardButton('♻️ 𝕳𝖊𝖑𝖕 ♻️', url=f"https://t.me/{temp.U_NAME}?start=help")
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -44,13 +44,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/movieclub1241'),
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/movieclub1241')
+            InlineKeyboardButton('💠 𝕮𝖍𝖆𝖓𝖓𝖊𝖑 💠', url='https://t.me/movieclub1241'),
+            InlineKeyboardButton('💠 𝕲𝖗𝖔𝖚𝖕 💠', url='https://t.me/mnxmovies124')
             ],[      
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('♻️ 𝕳𝖊𝖑𝖕 ♻️', callback_data='help'),
+            InlineKeyboardButton('♻️ 𝕬𝖇𝖔𝖚𝖙 ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://t.me/mnxmovies124')
+            InlineKeyboardButton('✅ 𝕵𝖔𝖎𝖓 𝕱𝖔𝖗 𝕸𝖔𝖛𝖎𝖊𝖘  ✅', url='https://t.me/mnxmovies124')
         ]]         
         reply_markup = InlineKeyboardMarkup(buttons)        
         await message.reply_photo(
@@ -73,7 +73,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🔥 JOIИ CHΛИИΞL 🔥", url=invite_link.invite_link
+                    "🔥 𝕵𝖔𝖎𝖓 𝕮𝖍𝖆𝖓𝖓𝖊𝖑 🔥", url=invite_link.invite_link
                 )
             ]
         ]
@@ -91,13 +91,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/movieclub1241'),
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/movieclub1241')
+            InlineKeyboardButton('💠 𝕮𝖍𝖆𝖓𝖓𝖊𝖑 💠', url='https://t.me/movieclub1241'),
+            InlineKeyboardButton('💠 𝕲𝖗𝖔𝖚𝖕 💠', url='https://t.me/mnxmovies124')
             ],[      
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('♻️ 𝕳𝖊𝖑𝖕 ♻️', callback_data='help'),
+            InlineKeyboardButton('♻️ 𝕬𝖇𝖔𝖚𝖙 ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://t.me/mnxmovies124')
+            InlineKeyboardButton('✅ 𝕵𝖔𝖎𝖓 𝕱𝖔𝖗 𝕸𝖔𝖛𝖎𝖊𝖘  ✅', url='https://t.me/mnxmovies124')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action("Typing")
