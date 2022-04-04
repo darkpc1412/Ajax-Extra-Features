@@ -36,7 +36,7 @@ def song(client, message):
     for i in message.command[1:]:
         query += ' ' + str(i)
     print(query)
-    m = message.reply("**ѕєαrchíng чσur ѕσng...!**")
+    m = message.reply("**𝕾𝖊𝖆𝖗𝖈𝖍𝖎𝖓𝖌 𝖄𝖔𝖚𝖗 𝕾𝖔𝖓𝖌...!**")
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -56,17 +56,17 @@ def song(client, message):
 
     except Exception as e:
         m.edit(
-            "**𝙵𝙾𝚄𝙽𝙳 𝙽𝙾𝚃𝙷𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝙲𝙾𝚁𝚁𝙴𝙲𝚃 𝚃𝙷𝙴 𝚂𝙿𝙴𝙻𝙻𝙸𝙽𝙶 𝙾𝚁 𝚂𝙴𝙰𝚁𝙲𝙷 𝙰𝙽𝚈 𝙾𝚃𝙷𝙴𝚁 𝚂𝙾𝙽𝙶**"
+            "**𝕱𝖔𝖚𝖓𝖉 𝕹𝖔𝖙𝖍𝖎𝖓𝖌  𝕻𝖑𝖊𝖆𝖘𝖊 𝕮𝖔𝖗𝖗𝖊𝖈𝖙 𝕿𝖍𝖊 𝕾𝖕𝖊𝖑𝖑𝖎𝖓𝖌 𝕺𝖗 𝕾𝖊𝖆𝖗𝖈𝖍 𝕬𝖓𝖞 𝕺𝖙𝖍𝖊𝖗 𝕾𝖔𝖓𝖌**"
         )
         print(str(e))
         return
-    m.edit("**dσwnlσαdíng чσur ѕσng...!**")
+    m.edit("**𝕯𝖔𝖜𝖓𝖑𝖔𝖆𝖉𝖎𝖓𝖌 𝖄𝖔𝖚𝖗 𝕾𝖔𝖓𝖌...!**")
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = '**𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 ›› [𝐌𝐎𝐕𝐈𝐄 𝐂𝐋𝐔𝐁 📺🎥](https://t.me/mnxmovies124)**\n**𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 ›› [𝐂𝐋𝐔𝐁 𝐇𝐎𝐔𝐒𝐄 🎬](https://t.me/movieclub1241)**'
+        rep = '**𝕾𝖚𝖇𝖘𝖈𝖗𝖎𝖇𝖊 ›› [𝐌𝐎𝐕𝐈𝐄 𝐂𝐋𝐔𝐁 📺🎥](https://t.me/mnxmovies124)**\n**𝕻𝖔𝖜𝖊𝖗𝖊𝖉 𝕭𝖞 ›› [𝐂𝐋𝐔𝐁 𝐇𝐎𝐔𝐒𝐄 🎬](https://t.me/movieclub1241)**'
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
@@ -100,7 +100,7 @@ async def vsong(client, message: Message):
     urlissed = get_text(message)
 
     pablo = await client.send_message(
-        message.chat.id, f"**𝙵𝙸𝙽𝙳𝙸𝙽𝙶 𝚈𝙾𝚄𝚁 𝚅𝙸𝙳𝙴𝙾** `{urlissed}`"
+        message.chat.id, f"**𝕱𝖎𝖓𝖉𝖎𝖓𝖌 𝖄𝖔𝖚𝖗 𝖁𝖎𝖉𝖊𝖔** `{urlissed}`"
     )
     if not urlissed:
         await pablo.edit("Invalid Command Syntax Please Check help Menu To Know More!")
@@ -133,13 +133,13 @@ async def vsong(client, message: Message):
         with YoutubeDL(opts) as ytdl:
             ytdl_data = ytdl.extract_info(url, download=True)
     except Exception as e:
-        await event.edit(event, f"**𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍 𝙵𝚊𝚒𝚕𝚎𝚍 𝙿𝚕𝚎𝚊𝚜𝚎 𝚃𝚛𝚢 𝙰𝚐𝚊𝚒𝚗..♥️** \n**Error :** `{str(e)}`")
+        await event.edit(event, f"**𝕯𝖔𝖜𝖓𝖑𝖔𝖆𝖉 𝕱𝖆𝖎𝖑𝖊𝖉 𝕻𝖑𝖊𝖆𝖘𝖊 𝕿𝖗𝖞 𝕬𝖌𝖆𝖎𝖓..♥️** \n**Error :** `{str(e)}`")
         return
     c_time = time.time()
     file_stark = f"{ytdl_data['id']}.mp4"
     capy = f"""
-**𝚃𝙸𝚃𝙻𝙴 :** [{thum}]({mo})
-**𝚁𝙴𝚀𝚄𝙴𝚂𝚃𝙴𝙳 𝙱𝚈 :** {message.from_user.mention}
+**𝕿𝖎𝖙𝖑𝖊 :** [{thum}]({mo})
+**𝕽𝖊𝖖𝖚𝖊𝖘𝖙𝖊𝖉 𝕭𝖞 :** {message.from_user.mention}
 """
     await client.send_video(
         message.chat.id,
