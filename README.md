@@ -111,5 +111,5 @@ python3 bot.py
 * /broadcast - to broadcast a message to all Ajax users
 ```
 
-<b>✮ 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 ›› [Justin](https://t.me/Justinvrgs)</b>                                                                                                                                                                                     
-<b>✮ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ›› [MovieClub 𝐔𝐩𝐝𝐚𝐭𝐞𝐳](https://t.me/movieclub1241)</b>
+<b>✮ 𝕯𝖊𝖛𝖊𝖑𝖔𝖕𝖊𝖗 ›› [𝕵𝖚𝖘𝖙𝖎𝖓](https://t.me/Justinvrgs)</b>                                                                                                                                                                                     
+<b>✮ 𝕲𝖗𝖔𝖚𝖕 ›› [𝐌𝐎𝐕𝐈𝐄 𝐂𝐋𝐔𝐁 📺🎥](https://t.me/mnxmovies124)</b>
