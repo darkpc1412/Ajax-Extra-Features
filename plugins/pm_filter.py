@@ -755,6 +755,23 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('✅ 𝕵𝖔𝖎𝖓 𝕱𝖔𝖗 𝕸𝖔𝖛𝖎𝖊𝖘  ✅', url='https://t.me/mnxmovies124')
         ]]
+        reply1 = await query.message.reply_text(
+            text="â–¢â–¢â–¢"
+        )
+        await asyncio.sleep(0.5)
+        reply2 = await reply1.edit_text(
+            text="â–£â–¢â–¢"
+        )
+        await asyncio.sleep(0.5)
+        reply3 = await reply2.edit_text(
+            text="â–£â–£â–¢"
+        )
+        await asyncio.sleep(0.5)
+        reply4 = await reply3.edit_text(
+            text="â–£â–£â–£"
+        )
+        await reply4.delete()
+
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
@@ -849,6 +866,23 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🏠 𝕳𝖔𝖒𝖊 🏠', callback_data='start'),
             InlineKeyboardButton('🔐 𝕮𝖑𝖔𝖘𝖊 🔐', callback_data='close_data')
         ]]
+        reply1 = await query.message.reply_text(
+            text="â–¢â–¢â–¢"
+        )
+        await asyncio.sleep(0.5)
+        reply2 = await reply1.edit_text(
+            text="â–£â–¢â–¢"
+        )
+        await asyncio.sleep(0.5)
+        reply3 = await reply2.edit_text(
+            text="â–£â–£â–¢"
+        )
+        await asyncio.sleep(0.5)
+        reply4 = await reply3.edit_text(
+            text="â–£â–£â–£"
+        )
+        await reply4.delete()
+
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text="𝐌𝐎𝐕𝐈𝐄 𝐂𝐋𝐔𝐁 📺🎥"
