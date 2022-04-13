@@ -53,8 +53,8 @@ async def start(client, message):
             InlineKeyboardButton('✅ 𝕵𝖔𝖎𝖓 𝕱𝖔𝖗 𝕸𝖔𝖛𝖎𝖊𝖘  ✅', url='https://t.me/mnxmovies124')
         ]]         
         reply_markup = InlineKeyboardMarkup(buttons)        
-        await message.reply_photo(
-            photo=random.choice(PICS),
+        await message.reply_video(
+            video=random.choice(PICS),
             caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode='html'
@@ -104,8 +104,8 @@ async def start(client, message):
         m=await message.reply_sticker("CAACAgQAAxkBAAEBB2ZiJjhMEWxwMEQZQ3P8MnO_1kqiKQACpDgAAjGNRgAB7LQc4Pny-AIeBA") 
         await asyncio.sleep(2)
         await m.delete()
-        await message.reply_photo(
-            photo=random.choice(PICS),
+        await message.reply_video(
+            video=random.choice(PICS),
             caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode='html'
